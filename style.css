@@ -4,5 +4,25 @@ body{
 }
 a{
     text-decoration: none;
+    color: white;
+}
+i{
+    color: white;
 }
 
+/* =====navbar section started===== */
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 50px;
+    box-shadow: 0px 1px rgb(58, 57, 57);
+    box-sizing: border-box;
+}
+.fa-solid{
+    padding-right: 5px;
+}
+
+/* =====navbar section ended===== */
