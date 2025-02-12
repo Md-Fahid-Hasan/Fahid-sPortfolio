@@ -1,14 +1,19 @@
 body{
     background-color: rgb(5, 8, 32);
     color: rgb(222, 218, 218);
+    box-sizing: border-box;
+    padding: 30px;
+    
 }
 a{
     text-decoration: none;
     color: white;
 }
-i{
-    color: white;
+a:hover{
+    color: rgba(255, 255, 255, 0.479);
+    transition: color 0.3s ease;
 }
+
 
 /* =====navbar section started===== */
 
@@ -17,7 +22,7 @@ i{
     display: flex;
     justify-content: center;
     gap: 30px;
-    height: 50px;
+    height: 10vh;
     box-shadow: 0px 1px rgb(58, 57, 57);
     box-sizing: border-box;
 }
@@ -26,3 +31,28 @@ i{
 }
 
 /* =====navbar section ended===== */
+
+/* =====Hero section started */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+}
+.heroInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+.heroName {
+    font-size: 3em;
+}
+.heroJob{
+    font-size: 2em;
+}
+.heroFigure img {
+    border-radius: 50%; /* Makes the image round */
+    width: 300px; /* Ensure the width is set */
+    height: 300px; /* Ensure the height is set */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
