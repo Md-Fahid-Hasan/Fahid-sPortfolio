@@ -1,4 +1,5 @@
 body{
+    position: relative;
     background-color: rgb(5, 8, 32);
     color: rgb(222, 218, 218);
     box-sizing: border-box;
@@ -14,7 +15,10 @@ a:hover{
     transition: color 0.3s ease;
 }
 
-
+.header{
+    height: 100vh;
+    box-sizing: border-box;
+}
 /* =====navbar section started===== */
 
 .navbar{
@@ -36,7 +40,7 @@ a:hover{
 .hero{
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    /* height: 80vh; */
 }
 .heroInformation {
     display: flex;
@@ -51,10 +55,37 @@ a:hover{
     font-size: 2em;
 }
 .heroFigure img {
-    border-radius: 50%; /* Makes the image round */
-    width: 300px; /* Ensure the width is set */
-    height: 300px; /* Ensure the height is set */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%;
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
 }
 
 /* =====Hero section ended */
+
+/* =====Aside section started===== */
+.fa-brands{
+    padding-right: 5px;
+}
+.aGithub{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 2px;
+    border-top-left-radius: 20px;
+}
+.aLinkedin{
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+}
+.aside{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-size: 1.2em;
+    position: fixed;
+    bottom: 40vh;
+    right: 0;
+}
