@@ -40,7 +40,6 @@ a:hover{
 .hero{
     display: flex;
     justify-content: space-between;
-    /* height: 80vh; */
 }
 .heroInformation {
     display: flex;
@@ -88,4 +87,28 @@ a:hover{
     position: fixed;
     bottom: 40vh;
     right: 0;
+}
+/* =====Aside section ended===== */
+
+/* =====About section started====== */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.about div{
+    margin: 70px;
+    padding: 20px 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.about h2{
+    font-size: 3em;
+}
+.about p{
+    font-size: 1.5em;
+    text-align: justify;
 }
