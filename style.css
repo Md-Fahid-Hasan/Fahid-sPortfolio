@@ -149,3 +149,40 @@ a:hover{
     height: 100px;
     padding-top: 10px;
 }
+/* =====Skill section ended===== */
+
+/* =====Project section started===== */
+.project{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.project h2{
+    font-size: 3em;
+}
+.project p{
+    font-size: 1.3em;
+    text-align: center;
+}
+.project ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.project li{
+    background-color: rgba(41, 20, 234, 0.169);
+    width: 300px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.project h3{
+    font-size: 2em;
+}
+.project a{
+    font-size: 1.3em;
+    padding: 10px;
+}
