@@ -112,3 +112,40 @@ a:hover{
     font-size: 1.5em;
     text-align: justify;
 }
+
+/* =====About section ended====== */
+
+/* =====Skill section started===== */
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skills h2{
+    font-size: 3em;
+}
+.skills p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.skills ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.skills li{
+    background-color: rgba(41, 20, 234, 0.53);
+    width: 300px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.skills img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
