@@ -186,3 +186,38 @@ a:hover{
     font-size: 1.3em;
     padding: 10px;
 }
+/* =====Project section ended===== */
+
+/* =====Contact section started===== */
+.contact{
+    padding-top: 30px;
+}
+.contact h2{
+    font-size: 3em;
+    text-align: center;
+}
+.contact p{
+    font-size: 1.3em;
+    text-align: center;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 100px;
+}
+.contact input{
+    padding-bottom: 10px;
+}
+.contact textarea {
+    resize: none;
+    height: 150px;
+}
+.contact input[type="submit"]{
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+/* =====Contact section ended===== */
